@@ -1,33 +1,4 @@
-<!DOCTYPE index.html>
-<!-- Latest compiled and minified CSS -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
-
-<!-- Latest compiled JavaScript -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
-<html>
-<head>
-<title> Viv's Works</title>
-</head>
-<body style="background-color: purple;">
-<body style="text-align:center;">
-
-<h1 style="color:white; font-family:verdana; text-align:center">Selfie Project</h1>
-<ul class="nav">
-	<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-	<li class="nav-item"><a class="nav-link" href="GlitchBoot.html">Glitch Art</a></li>
-	<li class="nav-item"><a class="nav-link"a href="MemeBoot.html">Meme Mashup</a></li>
-	<li class="nav-item"><a class="nav-link" href="MinecraftBoot.html">Minecraft Art</a></li>
-	<li class="nav-item"><a class="nav-link" href="3DBoot.html">3D Print</a></li>
-	<li class="nav-item"><a class="nav-link" href="NetArtBoot.html">HTML Net Art</a></li>
-	<li class="nav-item"><a class="nav-link" href="MiscBoot.html">Misc Projects</a></li>
-	<li class="nav-item"><a class="nav-link" href="selfie2.html">Selfie-Projects</a></li>
-	<li class="nav-item"><a class="nav-link" href="Diyps2026.html">DIY Photoshop</a></li>
-</ul>
-<p style="color:white; text-align:center; font-family:Helvetica; font-size:100%">This project was about making a unique brush tool program in which I used the Pikmin as the brushes. The background is a screenshot of Lake Bresha from Final Fantasy 13.</p>
-<a href="https://vivwalnuts.github.io/diyps2026/index.html">"vivwalnuts.github.io/diyps2026/index.html"</a></li>
-<img src="lakes_bresha.png" class="mx-auto d-block img-fluid rounded" alt="kitty" height=300"<b></p> 
-<p style="color:white; text-align:center; font-family:Helvetica; font-size:100%">This is my code to make this program work:</p>
-<pre>var img;
+var img;
 var img2;
 var img3;
 var img4;
