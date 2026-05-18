@@ -14,7 +14,7 @@
 <h1> The Right Bed Room </h1>
 <p style="color:white; text-align:center; font-family:Helvetica; font-size:100%">
 <img src="RightroomN.png" alt="kitty" class="center;" height="450"<b></p> 
-<p style="color:white; text-align:center"> You go to the bedroom on the right. The room seems way longer than you initially thought. There is also a phone nearby.</p>
+<p style="color:white; text-align:center; font-family:courier"> You go to the bedroom on the right. The room seems way longer than you initially thought. There is also a phone nearby.</p>
 <input type="text" id="wordInput" placeholder="Type here">
 <button onclick="checkWord()">Submit</button>
 <script>
@@ -22,10 +22,17 @@ function checkWord() {
     var input = document.getElementById("wordInput").value;
 
     if (input === "PHONE") {
-        window.location.href = "phone.html";  
+        window.location.href = "relief.html";  
     }  
 }
 </script>
+ <style>
+body {
+  background-image: url('Rory.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
 <br>
 <br>
  </br>
