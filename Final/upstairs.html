@@ -11,15 +11,32 @@
 <body style="background-color: black;">
 <body style="text-align:center;">
 
-<h1> The Living Room </h1>
-<p style="color:white; text-align:center"> You go upstairs. Going up the second floor felt much longer than usual.</p>
+<h1> The Second Floor </h1>
 <p style="color:white; text-align:center; font-family:Helvetica; font-size:100%">
-<a href="rightbedroom.html">go to the room on the right</a></li>
-<a href="leftbedroom.html">Go to the room on the left</a></li>
-<a href="upstairs2.html">Go upstairs</a></li>
 <br>
+<img src="2ndstairN.png" alt="kitty" class="center;" height="450"<b></p> 
+<p style="color:white; text-align:center"> You went upstairs. You see 2 doors to your left, a door to your right, and right down the middle is another set of stairs.</p>
+<input type="text" id="wordInput" placeholder="Type here">
+<button onclick="checkWord()">Submit</button>
+<script>
+function checkWord() {
+    var input = document.getElementById("wordInput").value;
+
+    if (input === "LEFT") {
+        window.location.href = "leftroom.html";  
+    }  
+	    if (input === "STAR") {
+        window.location.href = "lockedroom.html";  
+    }  
+	    if (input === "RIGHT") {
+        window.location.href = "rightroom.html";  
+    }  
+	    if (input === "THIRD") {
+        window.location.href = "upstairs2.html";  
+    }  
+}
+</script>
 <br>
-<img src="entrance.png" class="mx-auto d-block img-fluid rounded" alt="kitty" height="600" <b></p> 
-<br>
+<a href="entrance.html">Go back to 1st floor</a></li>
 <br>
  </br>

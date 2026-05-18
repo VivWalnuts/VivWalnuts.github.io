@@ -11,15 +11,21 @@
 <body style="background-color: black;">
 <body style="text-align:center;">
 
-<h1> The Living Room </h1>
-<p style="color:white; text-align:center"> You go to the bedroom on the right. Everything about the bed is torn up and rotten</p>
+<h1> The Right Bed Room </h1>
 <p style="color:white; text-align:center; font-family:Helvetica; font-size:100%">
-<a href="leftbedroom.html">Go to Room on the left.</a></li>
-<a href="upstairs2.html">Go upstairs</a></li>
-<a href="downstairs.html">Go downstairs</a></li>
-<br>
-<br>
-<img src="entrance.png" class="mx-auto d-block img-fluid rounded" alt="kitty" height="600" <b></p> 
+<img src="RightroomN.png" alt="kitty" class="center;" height="450"<b></p> 
+<p style="color:white; text-align:center"> You go to the bedroom on the right. The room seems way longer than you initially thought. There is also a phone nearby.</p>
+<input type="text" id="wordInput" placeholder="Type here">
+<button onclick="checkWord()">Submit</button>
+<script>
+function checkWord() {
+    var input = document.getElementById("wordInput").value;
+
+    if (input === "PHONE") {
+        window.location.href = "phone.html";  
+    }  
+}
+</script>
 <br>
 <br>
  </br>

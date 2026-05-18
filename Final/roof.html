@@ -11,14 +11,23 @@
 <body style="background-color: black;">
 <body style="text-align:center;">
 
-<h1> The Living Room </h1>
-<p style="color:white; text-align:center"> You make it to the roof, You finally get a sense of calm and collectiveness. </p>
+<h1> The Roof </h1>
 <p style="color:white; text-align:center; font-family:Helvetica; font-size:100%">
-<a href="upstairs2.html">go back</a></li>
-<a href="jump.html">Jump off</a></li>
+<img src="RoofN.png" alt="kitty" class="center;" height="450"<b></p> 
+<p style="color:white; text-align:center">You unlocked the door to the roof area. It’s cold and empty here and you feel alone. But at least the wide space and bright white sky made you feel a little safe.</p>
+<p style="color:white; text-align:center; font-family:Helvetica; font-size:100%">
+<input type="text" id="wordInput" placeholder="Type here">
+<button onclick="checkWord()">Submit</button>
+<script>
+function checkWord() {
+    var input = document.getElementById("wordInput").value;
+
+    if (input === "SEED") {
+        window.location.href = "flower.html";  
+    }  
+}
+</script>
 <br>
 <br>
-<img src="entrance.png" class="mx-auto d-block img-fluid rounded" alt="kitty" height="600" <b></p> 
-<br>
-<br>
+
  </br>
